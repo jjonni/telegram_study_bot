@@ -1,15 +1,35 @@
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 .Python
-.env
-.venv
-venv/
-env/
-.pytest_cache/
-.coverage
-.htmlcov/
-*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Другие настройки
 .DS_Store
-.idea/
-*.log
+.env
+.vscode/
