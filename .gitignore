@@ -4,32 +4,12 @@
 *.iws
 *.ipr
 
-# Virtual Environment
-.venv/
+#
 venv/
-env/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Другие настройки
-.DS_Store
+.venv/
 .env
-.vscode/
+.mypy_cache/
+__pycache__/
+.DS_Store
+.postgres_data/
+.pgadmin_data/
